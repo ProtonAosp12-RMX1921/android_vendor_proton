@@ -50,6 +50,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
 
+# Charger mode images
+PRODUCT_PACKAGES += \
+    charger_res_images
+
 # AOSP userdebug/eng CLI tools
 PRODUCT_PACKAGES += \
     arping \
