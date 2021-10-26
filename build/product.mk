@@ -93,6 +93,10 @@ PRODUCT_PACKAGES += \
     ssh-keygen \
     start-ssh \
 
+# Blur
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.launcher.blur.appLaunch=false
+
 # Gapps
 ifeq ($(WITH_GMS),true)
 
